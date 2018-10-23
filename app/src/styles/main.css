@@ -17,7 +17,7 @@ body {
 .main {
 	display: flex;
 	flex-direction: column;
-	padding: 6rem;
+	padding: 5%;
 }
 
 .footer {
@@ -32,16 +32,22 @@ body {
 
 #status {
 	display: flex;
+	flex-direction: column;
+	align-items: center;
 	flex-wrap: wrap;
-	justify-content: center;
-	height: 5rem;
-	border-radius: 4px;
+	height: 15%;
+	border-radius: 0.25rem;
 	background-color: #ebe1c6;
-	box-shadow: 0 2px 4px 0 rgba(253, 253, 253, 0.24), 0 4px 8px 0 rgba(8, 8, 8, 0.24);
+	box-shadow: 0 0.125rem 0.25rem 0 rgba(253, 253, 253, 0.24), 0 0.25rem 0.5rem 0 rgba(8, 8, 8, 0.24);
 }
 
 #status h2 {
 	font-size: 1.2rem;
+	margin: 0;
+}
+
+#status .status-elements {
+	display: flex;
 }
 
 #table {
@@ -49,8 +55,18 @@ body {
 	flex-wrap: wrap;
 	justify-content: center;
 	margin-top: 1.25rem;
-	height: 20rem;
+	height: 50%;
 	border-radius: 0.25rem;
 	background-color: #f8f8f8;
 	box-shadow: 0 0.125rem 0.25rem 0 rgba(253, 253, 253, 0.24), 0 0.25rem 0.5rem 0 rgba(8, 8, 8, 0.24);
+}
+
+.card {
+	background-image: '../img/bergens-tidende.svg';
+}
+
+.options {
+	display: flex;
+	justify-content: center;
+	margin-top: 1rem;
 }

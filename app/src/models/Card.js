@@ -22,4 +22,10 @@ export class Card {
 		this.card.classList.remove('flipped');
 		this.card.setAttribute('class', 'matched');
 	}
+
+	setImage(isFlipped) {
+		if (isFlipped) {
+			this.card.style.backgroundImage = `url(http://localhost:4100/${this.cardName})`;
+		}
+	}
 }
