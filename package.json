@@ -1,0 +1,19 @@
+{
+  "name": "memory-js",
+  "version": "1.0.0",
+  "description": "Memory Card game using Vanilla JS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaelRochaS91/memory-js.git"
+  },
+  "author": "Rafael Rocha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RafaelRochaS91/memory-js/issues"
+  },
+  "homepage": "https://github.com/RafaelRochaS91/memory-js#readme"
+}
