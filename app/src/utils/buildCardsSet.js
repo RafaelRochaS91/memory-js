@@ -1,4 +1,5 @@
 import { Card } from '../models/Card';
+import { name } from 'faker';
 
 /**
  *
@@ -9,7 +10,10 @@ function buildCardSet(count) {
 	let currentCardNr = 0;
 	let cards = [];
 
-	while (currentCardNr < count) {}
+	while (currentCardNr < count) {
+		const cardOneName = name.firstName();
+		const cardOne = new Card()
+	}
 }
 
 export default buildCardSet;
